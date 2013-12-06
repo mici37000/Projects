@@ -1,0 +1,15 @@
+p,input,label{font:13px Arial, Verdana, sans-serif;}
+
+ol,h4{margin: 0 0 10px;}
+
+label{display: block;}
+
+fieldset{border: none;}
+
+input[id=btSubmit]{/*display: block;  margin: 15px;*/}
+
+.correct{color: green;}
+
+.wrong{color: red;}
+
+.hidden{display: none;}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+    <script type="text/javascript" src="scripts/lib/jquery-2.02.js"></script>
+    <script type="text/javascript" src="scripts/initList.js"></script>
+    <script type="text/javascript" src="scripts/person.js"></script>
+    <script type="text/javascript" src="scripts/util.js"></script>
+    <script type="text/javascript" src="scripts/friend_query.js"></script>
+    <title>Friend Query Interface</title>
+</head>
+<body>
+    <div class="leftSide">
+        <input id="tbName" type="text"/>
+        <ol class="friends" id="container">
+        </ol>
+        <p id="result"></p>
+    </div>
+    <div class="rightSide">
+        <div id="friendEdit" class="friendsEditContainer" ondragenter="return false" ondragover="return false">
+            <div class="row">
+                <img id="imgFriendEdit" src="images/empty.gif" alt="" ondragenter="return false" ondragover="return false"/>
+                <input style="margin-top: 15px;" type="text" id="tbFriendEditName" required/>
+            </div>
+            <div class="row">
+                <label>Email:</label>
+                <input type="email" id="tbFriendEditMail" required />
+            </div>
+            <div class="row">
+                <label>Address:</label>
+                <input type="text" id="tbFriendEditAddress" required/>
+            </div>
+            <div class="row">
+                <label>Phone:</label>
+                <input type="tel" id="tbFriendEditphone" required=""/>
+            </div>
+        </div>
+        <div id="friendShow" class="friendsEditContainer">
+            <div class="row">
+                <img id="imgFriendShow" src="" alt=""/>
+                <span id="lbFriendShowName"></span>
+            </div>
+            <div class="row">
+                <label>Email:</label> <span id="tbFriendShowMail"></span>
+            </div>
+            <div class="row">
+                <label>Address:</label> <span id="tbFriendShowAddress"></span>
+            </div>
+            <div class="row">
+                <label>Phone:</label> <span id="tbFriendShowPhone"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

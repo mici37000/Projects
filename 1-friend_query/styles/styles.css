@@ -1,0 +1,55 @@
+p,input,label,span{font:13px Arial, Verdana, sans-serif;}
+
+.leftSide,.rightSide{position: fixed; top: 0.5em;}
+
+.leftSide{
+    width: 15.4em;
+    height: 55em;
+    border: 2px solid brown;
+    border-radius: 5px;
+}
+
+.leftSide input[id=tbName]{
+    display: block;
+    position: fixed;
+    margin-top: 0.4em;
+    left: 1.2em;
+}
+
+ol.friends{
+    margin-top: 1.2em;
+    padding: 0.6em;
+    max-height: 51em;
+    overflow: auto;
+}
+
+li{list-style-type: none; margin: 0.5em 0;}
+
+.leftSide img{margin-right: 0.4em;}
+
+p#result{margin: 2.5em 0.5em;}
+
+.wrong{color: red;}
+
+.rightSide{left: 16em;}
+
+.friendsEditContainer{
+    float: left;
+    margin-left: 1em;
+    width: 25em;
+    /*height: 25em;*/
+    padding: 0.5em;
+    border: 2px solid brown;
+    border-radius: 5px;
+}
+
+.friendsEditContainer .row{
+    width: 14em;
+    height: 3.3em;
+    line-height: 1.4em;
+
+}
+
+.friendsEditContainer input, .friendsEditContainer input span{float: right;}
+
+.friendsEditContainer label,span{vertical-align: bottom;}

@@ -1,0 +1,175 @@
+/*sprites*/
+.leaderboard.sprite, #leaderboard .sprite, #leaderboard.sprite{}
+
+#leaderboard.show-ranking .content.prizes, #leaderboard.show-prizes .content.ranking{display: none;}
+
+div{font-family: Arial,Verdana,sans-serif; font-size: 12px;}
+
+body{width: 705px; margin: 0 auto; background-color: #00001e;}
+
+#leaderboard .title-tabs{
+    width: 675px;
+    margin: 0 auto 16px;
+    padding-top: 160px;
+    text-align: justify;
+    font-size: 0.1px;
+}
+
+#leaderboard .title-tabs:after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+#leaderboard .title-tabs div{
+    width: 211px;
+    height: 50px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/*ranking buttons*/
+#leaderboard .tab.sprite.ranking{
+    background-position: -722px -16px;
+}
+
+#leaderboard .tab.sprite.ranking:hover{
+    background-position: -722px -83px;
+}
+
+#leaderboard .tab.sprite.ranking-active{
+    background-position: -722px -152px;
+}
+
+/*prizes buttons*/
+#leaderboard .tab.sprite.prizes{
+    background-position: -952px -16px;
+}
+
+#leaderboard .tab.sprite.prizes:hover{
+    background-position: -952px -83px;
+}
+
+#leaderboard .tab.sprite.prizes-active{
+    background-position: -952px -152px;
+}
+
+/*play buttons*/
+#leaderboard .tab.sprite.play{
+    background-position: -1181px -16px;
+}
+
+#leaderboard .tab.sprite.play:hover{
+    background-position: -1181px -83px;
+}
+
+/*label tabs*/
+#leaderboard .label-tabs{
+    width: 670px;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 0.1px;
+}
+
+#leaderboard .label-tabs:after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+#leaderboard .label-tabs div{
+    width: 156px;
+    height: 37px;
+    cursor: pointer;
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 13px;
+    padding-left: 2px;
+}
+
+#leaderboard .label-tab{
+    background-position: -722px -217px;
+}
+
+#leaderboard .label-tab:hover{
+    background-position: -890px -217px;
+}
+
+#leaderboard .label-tab-active{
+    background-position: -1060px -217px;
+}
+
+#leaderboard .sprite.title{
+    width: 675px;
+    margin-top: 8px;
+    height: 54px;
+    background-position: -737px -847px;
+}
+
+#leaderboard .player-ranking{
+    width: 675px;
+    margin: 0 auto;
+}
+
+#leaderboard .players{
+    height: 360px;
+    background-color: #EDEDED;
+    overflow: auto;
+    font-size: 13px;
+    color: #000000;
+}
+
+#leaderboard .player{
+    height: 62px;
+}
+
+#leaderboard .players.msg{
+    padding: 10px;
+    line-height: 16px;
+}
+
+#leaderboard .players.msg b{font-weight: bold;}
+
+#leaderboard .col{
+    border-top: solid 2px #A5A5A5;
+    border-left: solid 2px #A5A5A5;
+    vertical-align: middle;
+    float: left;
+    height: 62px;
+    line-height: 62px;
+}
+
+#leaderboard .col.rank{
+    width: 135px;
+    text-align: center;
+}
+#leaderboard .col.user{
+    width: 380px;
+}
+
+#leaderboard .col.points{
+    border-right: solid 2px #A5A5A5;
+    width: 135px;
+    text-align: center;
+}
+
+#leaderboard .player:last-child .col{
+    border-bottom: solid 2px #A5A5A5;
+}
+
+#leaderboard .image{
+    vertical-align: -1.45em;
+    margin-left: 30px;
+}
+
+#leaderboard .name {
+    margin-left: 10px;
+}
+
+#leaderboard .sprite.content.prizes{
+    width: 705px;
+    height: 565px;
+    background-position: -722px -273px;
+}
