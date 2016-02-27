@@ -18,3 +18,6 @@ Link to the page: http://www.rummyroyal.com/casino_games/
 Link to JS file: http://www.rummyroyal.com/common_shared/javascript/casino_games.js 
 This is a casino page with a nice gallery and a jackpot counting mechanism that starts counting on every page reload with random value from 3 million to 6 million.
 
+##### Project 4 – Casino page #####
+Nice page thats use YouTube API in order to search, show and play YouTube videos. 
+
