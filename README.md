@@ -14,7 +14,7 @@ This project allows you test your mathematical skills (). You can choose an e
 This project is just a one language\variant of a big leader board system of a Rummy Facebook game (https://apps.facebook.com/rummyrush). In my sample you can see the English version of one of the leader boards. All players data comes from a JSON configuration file that allows to change designs by changing the Sprite image of each version\language.
 
 ##### Project 4 – Casino page #####
-Link to the page: http://www.rummyroyal.com/casino_games
+Link to the page: http://www.rummyroyal.com/casino_games/
 Link to JS file: http://www.rummyroyal.com/common_shared/javascript/casino_games.js 
 This is a casino page with a nice gallery and a jackpot counting mechanism that starts counting on every page reload with random value from 3 million to 6 million.
 
